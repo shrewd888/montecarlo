@@ -15,6 +15,8 @@ public class PortfolioSimulatorTest {
             Portfolio portfolio = new Portfolio(type, INITIAL_INVESTMENT);
             PortfolioSimulator simulator = new PortfolioSimulator(portfolio, NUM_OF_SIMULATION, NUM_OF_YEAR);
             simulator.simulate();
+            
+            //the median calculated manually is equal to the median calculated from DescriptiveStatistics
             Assert.assertEquals(simulator.median(), portfolio.getMedian(), 0);
             System.out.println(portfolio);
         }
