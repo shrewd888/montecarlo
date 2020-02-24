@@ -5,9 +5,10 @@ A Real Time implementation of Modern Portfolio Theory is to build an optimal ass
 Combining the risk &amp;amp; return of each asset class and correlations across them – we come up with the risk and return of the overall portfolio.  
 Two portfolios were created, one being extremely Conservative and one being Aggressive. 
 
-Portfolio Type Return (Mean) Risk ( Standard Deviation) 
-Aggressive %9.4324 15.675 
-Very Conservative %6.189 6.3438 
+| Portfolio Type | Return (Mean)  | Risk (Standard Deviation) |
+| ------------- | ------------- | ------------- |
+| Aggressive    |  %9.4324   |       15.675      |
+| Very Conservative  | %6.189   |     6.3438     |
 
 We would now like to compare their performance against each other. 
 We would like to know that if a user with $100,000 invested their money in either of them, how would the returns compare over the next 20 years. We would like to test their performance by using forward- looking Monte Carlo Simulations. 
@@ -24,11 +25,15 @@ Ie. Year 1 value of 103.5 is equivalent to 100 at Year 0.
 
 Solution Needed 
 1.  Portfolio Inflation Adjusted Values from Simulation 
-Portfolio Type Median 20 th Year 10 % Best Case 10 % Worst Case 
-A - Aggressive I - Very Conservative 
+
+| Portfolio Type | Median 20 th Year  | 10 % Best Case |  10 % Worst Case |
+| ------------- | ------------- | ------------- | ------------- |
+| A - Aggressive   |   |            |   | 
+| I - Very Conservative  |  |         |   |
 
 Description 
 10% Best Case   :  90 th Percentile value among the 10,000 simulations 
 10% Worst Case  :  10 th Percentile value among the 10,000 simulations. 
 
-Hint To test your results create an account with Personal Capital, add a manual portfolio and go to Investment Checkup and compare your results.
+Hint
+To test your results create an account with Personal Capital, add a manual portfolio and go to Investment Checkup and compare your results.
