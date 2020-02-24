@@ -23,17 +23,17 @@ Assumptions
 2. 20 th Year future value should be inflation adjusted at the rate of 3.5% each year. 
 Ie. Year 1 value of 103.5 is equivalent to 100 at Year 0. 
 
-Solution Needed 
-1.  Portfolio Inflation Adjusted Values from Simulation 
+Solution Needed<br />
+1.  Portfolio Inflation Adjusted Values from Simulation <br />
 
 | Portfolio Type | Median 20 th Year  | 10 % Best Case |  10 % Worst Case |
 | ------------- | ------------- | ------------- | ------------- |
 | A - Aggressive   |   |            |   | 
 | I - Very Conservative  |  |         |   |
 
-Description 
-10% Best Case   :  90 th Percentile value among the 10,000 simulations 
-10% Worst Case  :  10 th Percentile value among the 10,000 simulations. 
+Description<br />
+10% Best Case   :  90 th Percentile value among the 10,000 simulations<br />
+10% Worst Case  :  10 th Percentile value among the 10,000 simulations
 
-Hint
+Hint<br />
 To test your results create an account with Personal Capital, add a manual portfolio and go to Investment Checkup and compare your results.
