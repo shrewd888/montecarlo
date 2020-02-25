@@ -15,7 +15,7 @@ public class PortfolioSimulatorTest {
 
     @Test
     public void testSimulationWithoutInflation() {
-        System.out.println("*** Portfolio Values Without Inflation from Simulation ***\n");
+        System.out.println("--- Portfolio Values Without Inflation from Simulation ---\n");
 
         List<Portfolio> portfolioList = List.of(AGGRESSIVE, VERY_CONSERVATIVE);
         for (Portfolio portfolio : portfolioList) {
@@ -27,7 +27,7 @@ public class PortfolioSimulatorTest {
 
     @Test
     public void testSimulationWithInflation() {
-        System.out.println("*** Portfolio Inflation Adjusted Values from Simulation *** \n");
+        System.out.println("--- Portfolio Inflation Adjusted Values from Simulation ---\n");
 
         List<Portfolio> portfolioList = List.of(AGGRESSIVE, VERY_CONSERVATIVE);
         for (Portfolio portfolio : portfolioList) {
